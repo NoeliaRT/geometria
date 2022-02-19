@@ -19,11 +19,7 @@ public class Triangulo_NRT extends FiguraGeometrica_NRT {
 	@Override
 	public double area() { //Utiliza la formula de Her—n
 		double sp;
-		sp = this.semiPerimetro();
+		sp = this.perimetro() / 2;
 		return Math.sqrt(sp * (sp-ladoA) * (sp-ladoB) * (sp-ladoC));
-	}
-	
-	public double semiPerimetro() {
-		return this.perimetro() / 2;
 	}
 }
