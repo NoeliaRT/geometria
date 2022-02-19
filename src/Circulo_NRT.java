@@ -7,7 +7,7 @@ public class Circulo_NRT extends FiguraGeometrica_NRT {
 	public Circulo_NRT(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
-		if(r<0) { r=r*-1;		
+		if(radio<0) { radio=radio*-1;		
 		}
 	}
 
