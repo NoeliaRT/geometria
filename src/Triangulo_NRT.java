@@ -23,7 +23,5 @@ public class Triangulo_NRT extends FiguraGeometrica_NRT {
 		return Math.sqrt(sp * (sp-ladoA) * (sp-ladoB) * (sp-ladoC));
 	}
 	
-	public double semiPerimetro() {
-		return this.perimetro() / 2;
-	}
+	
 }
